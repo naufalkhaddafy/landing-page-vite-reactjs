@@ -1,5 +1,5 @@
 # Landing Page
-Simple App to give score to student
+Simple Landing Page for Practice
 
 ## Tech Stack
 - Vite
