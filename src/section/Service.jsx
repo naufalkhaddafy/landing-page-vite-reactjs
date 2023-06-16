@@ -1,6 +1,9 @@
 import { IconCheck } from '@tabler/icons-react';
 import Card from '../components/Card/Card';
-// import logo from '../../src/assets/images/branding.png';
+import branding from '../../src/assets/images/services/branding.png';
+import marketing from '../../src/assets/images/services/marketing.png';
+import publication from '../../src/assets/images/services/publication.png';
+
 const Service = () => {
   return (
     <section className={'w-full mt-10'}>
@@ -9,19 +12,19 @@ const Service = () => {
         <div className={'grid grid-cols-1 gap-y-6 gap-x-20 md:grid-cols-2 lg:grid-cols-3'}>
           <Card>
             <Card.Image>
-              <img src={'/branding.png'} className={'h-60 w-full'} />
+              <img src={branding} className={'h-60 w-full'} />
             </Card.Image>
             <Card.Title>Branding</Card.Title>
             <Card.Body>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, reiciendis!</Card.Body>
           </Card>
           <Card>
-            <img src={'/marketing.png'} className={'h-60 w-full'} />
+            <img src={marketing} className={'h-60 w-full'} />
 
             <Card.Title>Marketing</Card.Title>
             <Card.Body>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, reiciendis!</Card.Body>
           </Card>
           <Card>
-            <img src={'/publication.png'} className={'h-60 w-full'} />
+            <img src={publication} className={'h-60 w-full'} />
 
             <Card.Title>Publications</Card.Title>
             <Card.Body>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, reiciendis!</Card.Body>

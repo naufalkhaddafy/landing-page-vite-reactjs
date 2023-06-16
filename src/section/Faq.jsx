@@ -2,6 +2,7 @@ import { IconPlus } from '@tabler/icons-react';
 import { useEffect } from 'react';
 import { Collapse, initTE, Ripple } from 'tw-elements';
 import { faq } from '../Data.jsx';
+import ip from '../../src/assets/images/ip.png';
 
 const Faq = () => {
   useEffect(() => {
@@ -16,7 +17,7 @@ const Faq = () => {
         </div>
         <div className={'grid grid-cols-1 gap-y-6 lg:flex gap-x-20 mt-10'}>
           <div className={'lg:w-1/3'}>
-            <img src={'/ip.png'} alt='' className={'w-80 h-[480px] rounded-lg'} />
+            <img src={ip} alt='' className={'w-80 h-[480px] rounded-lg'} />
           </div>
           <div className={'lg:w-2/3 grid items-center '}>
             <div className={'grid gap-y-6'}>

@@ -1,7 +1,12 @@
 import { IconChartDonutFilled, IconChevronRight, IconPlus, IconHomePlus, IconBrandReact } from '@tabler/icons-react';
 import Button from '../components/Button';
 import CardService from '../components/Card/CardService';
-// import hero from '../../src/assets/images/hero/hero.png';
+import hero from '../../src/assets/images/hero.png';
+import adobe from '../../src/assets/images/brand/Adobe.png';
+import engage from '../../src/assets/images/brand/Engage.png';
+import group from '../../src/assets/images/brand/Group.png';
+import union from '../../src/assets/images/brand/Union.png';
+
 import React from 'react';
 
 const Hero = () => {
@@ -43,18 +48,18 @@ const Hero = () => {
             <CardService />
           </div>
           <div className='hidden  lg:block h-[468px] w-[350px]  absolute top-28 right-[195px] bg-transparent'>
-            <img src='/hero.png' className={'w-full h-full rounded-lg'} />
+            <img src={hero} className={'w-full h-full rounded-lg'} />
           </div>
         </div>
         {/* Servce End */}
 
         <div className={'flex flex-wrap  items-center justify-between py-10 gap-y-5'}>
-          <img src='/brand/Adobe.png' alt='' className={'w-28 h-6'} />
-          <img src='/brand/Engage.png' alt='' className={'w-28 h-6'} />
-          <img src='/brand/Group.png' alt='' className={'w-28 h-6'} />
-          <img src='/brand/Union.png' alt='' className={'w-28 h-6'} />
-          <img src='/brand/Adobe.png' alt='' className={'w-28 h-6'} />
-          <img src='/brand/Engage.png' alt='' className={'w-28 h-6'} />
+          <img src={adobe} alt='' className={'w-28 h-6'} />
+          <img src={engage} alt='' className={'w-28 h-6'} />
+          <img src={group} alt='' className={'w-28 h-6'} />
+          <img src={union} alt='' className={'w-28 h-6'} />
+          <img src={adobe} alt='' className={'w-28 h-6'} />
+          <img src={engage} alt='' className={'w-28 h-6'} />
         </div>
       </div>
     </section>
