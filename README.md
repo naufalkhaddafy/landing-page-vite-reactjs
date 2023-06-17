@@ -4,4 +4,4 @@ Simple Landing Page for Practice
 ## Tech Stack
 - Vite
 - React JS
-- Taildwind CSS
+- Tailwind CSS
