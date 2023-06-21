@@ -1,5 +1,4 @@
-import { IconChartDonutFilled, IconChevronRight, IconPlus, IconHomePlus, IconBrandReact } from '@tabler/icons-react';
-import Button from '../components/Button';
+import { IconChevronRight } from '@tabler/icons-react';
 import CardService from '../components/Card/CardService';
 import hero from '../../src/assets/images/hero.png';
 import adobe from '../../src/assets/images/brand/Adobe.png';
@@ -7,11 +6,9 @@ import engage from '../../src/assets/images/brand/Engage.png';
 import group from '../../src/assets/images/brand/Group.png';
 import union from '../../src/assets/images/brand/Union.png';
 
-import React from 'react';
-
 const Hero = () => {
   return (
-    <section className={'w-full pt-28'}>
+    <section className={'w-full pt-28 '}>
       <div className={'container'}>
         {/* Paragraph Content Start*/}
         <div className={'w-full pb-10'}>
@@ -31,7 +28,7 @@ const Hero = () => {
         {/* Service Start*/}
         <div
           className={
-            'w-full flex items-center justify-between py-4 px-10  bg-primary rounded-2xl text-white font-semibold shadow-lg'
+            'w-full flex items-center justify-between py-4 px-10  bg-primary rounded-2xl text-white font-semibold shadow-lg relative'
           }>
           <div className={'w-full max-w-lg flex items-center gap-x-10'}>
             <div className={'bg-rose-700 rounded-2xl py-8 px-4 text-center shadow-xl grid place-items-center'}>
@@ -47,12 +44,12 @@ const Hero = () => {
             </div>
             <CardService />
           </div>
-          <div className='hidden  lg:block h-[468px] w-[350px]  absolute top-28 right-[195px] bg-transparent'>
+          <div className='hidden lg:block h-[468px] w-[350px] absolute -bottom-0 right-0 bg-transparent'>
             <img src={hero} className={'w-full h-full rounded-lg'} />
           </div>
         </div>
-        {/* Servce End */}
 
+        {/* Servce End */}
         <div className={'flex flex-wrap  items-center justify-between py-10 gap-y-5'}>
           <img src={adobe} alt='' className={'w-28 h-6'} />
           <img src={engage} alt='' className={'w-28 h-6'} />
