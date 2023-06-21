@@ -3,7 +3,7 @@ import Card from '../components/Card/Card';
 
 const Blog = () => {
   return (
-    <div className={'w-full bg-slate-200 py-16'}>
+    <section id='blog' className={'w-full bg-slate-200 py-16'}>
       <div className={'container'}>
         <div className={'flex justify-between mb-10'}>
           <h1 className={'text-3xl font-bold text-primary'}>Blog</h1>
@@ -45,7 +45,7 @@ const Blog = () => {
           <input type='radio' id='html' name='fav_language' value='HTML' />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Blog;

@@ -4,7 +4,7 @@ import CardService from '../components/Card/CardService';
 import Button from '../components/Button';
 const Testimonial = () => {
   return (
-    <section className={'bg-primary mt-16 py-16 text-white'}>
+    <section id={'testimoni'} className={'bg-primary mt-16 py-16 text-white'}>
       <div className={'container'}>
         <div className='grid lg:flex gap-y-6 gap-x-10'>
           <div className={' bg-rose-700 rounded-2xl py-8 px-4 text-center shadow-xl grid place-items-center'}>

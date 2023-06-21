@@ -12,7 +12,7 @@ const Hero = () => {
       <div className={'container'}>
         {/* Paragraph Content Start*/}
         <div className={'w-full pb-10'}>
-          <div className={'w-full max-w-md'}>
+          <div className={'w-full max-w-md '}>
             <h1 className={'text-primary text-3xl font-medium mb-4 capitalize'}>
               <p className={'block'}>Rencanakan Bisnis,</p>Rencanakan Sukses
             </h1>
