@@ -17,19 +17,15 @@ const Hero = () => {
               <p className={'block'}>Rencanakan Bisnis,</p>Rencanakan Sukses
             </h1>
             <p className={'text-justify'}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, illo impedit ut assumenda reiciendis
-              beatae placeat debitis aspernatur reprehenderit ad esse sint aliquam incidunt numquam odit quas qui,
-              minima magni rem fugiat! Sint ducimus expedita, dolorum commodi amet eaque animi, necessitatibus harum
-              ullam enim iusto ex sunt quo porro molestiae?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, illo impedit ut assumenda reiciendis beatae placeat debitis aspernatur
+              reprehenderit ad esse sint aliquam incidunt numquam odit quas qui, minima magni rem fugiat! Sint ducimus expedita, dolorum commodi amet
+              eaque animi, necessitatibus harum ullam enim iusto ex sunt quo porro molestiae?
             </p>
           </div>
         </div>
         {/* Paragraph Content End*/}
         {/* Service Start*/}
-        <div
-          className={
-            'w-full flex items-center justify-between py-4 px-10  bg-primary rounded-2xl text-white font-semibold shadow-lg relative'
-          }>
+        <div className={'w-full flex items-center justify-between py-4 px-10  bg-primary rounded-2xl text-white font-semibold shadow-lg relative'}>
           <div className={'w-full max-w-lg flex items-center gap-x-10'}>
             <div className={'bg-rose-700 rounded-2xl py-8 px-4 text-center shadow-xl grid place-items-center'}>
               <div className={'mb-4'}>

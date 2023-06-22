@@ -6,9 +6,7 @@ const Footer = () => {
           <div className='lg:w-2/5'>
             <a href='#'>
               <h1
-                className={
-                  'text-3xl  font-bold block pb-4 leading-tight bg-gradient-to-r from-primary to-rose-300   bg-clip-text text-transparent'
-                }>
+                className={'text-3xl  font-bold block pb-4 leading-tight bg-gradient-to-r from-primary to-rose-300   bg-clip-text text-transparent'}>
                 {'<Kadapai/>'}
               </h1>
             </a>
